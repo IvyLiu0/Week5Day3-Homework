@@ -414,7 +414,7 @@ section{
 }
 
 #activities #displaySelected #result, #activities #displaySelected #sendinfo{
-    display: inline-block;
+    display: block;
     margin: 0;
 }
 

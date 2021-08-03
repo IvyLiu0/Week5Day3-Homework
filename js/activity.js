@@ -19,8 +19,8 @@ $(document).ready(function(){
                 $('#result p:contains('+content+')').remove();
 
                 if ($('#result').has('p').length == false){
-                    $('#displaySelected').css("visibility","visible");
-                    $('#displaySelected').css("margin-top",'o')
+                    $('#displaySelected').css("visibility","hidden");
+                    $('#displaySelected').css("margin-top",'0')
                 }
             }
         }
